@@ -1,4 +1,7 @@
-public class Solution {
+package Arrays;
+import java.util.*;
+
+public class PrimeSum {
     public ArrayList<Integer> primesum(int A) {
         boolean prime[] = new boolean[A+1];
         ArrayList<Integer> p = new ArrayList<Integer>();
