@@ -40,7 +40,7 @@ class RearrangingArray {
 
 
 class Solution {
-    public static void Rearrange(int a[], int n, int answer[])
+    public void Rearrange(int a[], int n, int answer[])
     {
         Arrays.sort(a);
         try {
@@ -54,7 +54,6 @@ class Solution {
             }
 
         } catch (Exception e) {
-            // TODO: handle exception
             System.out.println("Solution.Rearrange(): Exception: " + e.getStackTrace());
             System.err.println("Error: "+e.getMessage());
         }

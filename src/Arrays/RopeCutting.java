@@ -60,17 +60,15 @@ class RopeCutting {
         }
     }
     // Function for finding maximum and value pair
-    public static ArrayList<Integer> RopeCutting(int arr[], int n) {
+    public static ArrayList<Integer> ropeCutting(int arr[], int n) {
         // Complete the Function
         mergeSort(arr, 0, n-1);
         for(int i: arr)
 		        System.out.print(i + " ");
 		    System.out.println();
         ArrayList<Integer> results = new ArrayList<Integer>();
-
-        int count;
+        
         for(int i=0; i<n-1; i++){
-            count = 0;
             while(i<n-1 && arr[i] == arr[i+1]){
                 i++;
             }
@@ -102,13 +100,10 @@ class RopeCutting {
 		    ArrayList<Integer> res;
             int sizeOfArray = 22;
             int arr[]={122, 95, 122, 122, 94, 95, 94, 122, 122, 93, 95, 95, 122, 95, 93, 122, 95, 94, 122, 94, 5, 36};
-		    res = RopeCutting(arr, sizeOfArray);
+		    res = ropeCutting(arr, sizeOfArray);
 		    for(int i: res)
 		        System.out.print(i + " ");
 		    System.out.println();
 		// }
 	}
 }
-// } Driver Code Ends
-
-//User function Template for Java
