@@ -1,15 +1,5 @@
-package Arrays;
-
-// { Driver Code Starts
-//Initial Template for Java
-
-//Initial Template for Java
-
-/*package whatever //do not write package name here */
-
 import java.io.*;
 import java.util.*;
-
 
 class InversePermutation {
     
@@ -33,19 +23,16 @@ class InversePermutation {
 		    for(int i = 0;i<sizeOfArray;i++){
 		        arr[i] = Integer.parseInt(elements[i]);
 		    }
-		    Complete obj = new Complete();
+		    
 		    ArrayList<Integer> ans;
-		    ans = obj.inversePermutation(arr, sizeOfArray);
+		    ans = Complete.inversePermutation(arr, sizeOfArray);
 		    for(int i: ans)
 		        System.out.print(i + " ");
 		    System.out.println();
 		}
 	}
 }
-// } Driver Code Ends
 
-
-//User function Template for Java
 
 class Complete{
     // Function for finding maximum and value pair

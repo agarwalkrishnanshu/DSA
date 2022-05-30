@@ -1,10 +1,8 @@
-package Arrays;
 // Link: https://practice.geeksforgeeks.org/problems/rearranging-array1648/1/?page=1&difficulty[]=-1&difficulty[]=0&category[]=Arrays&sortBy=accuracy#
 // { Driver Code Starts
 //Initial Template for Java
 
 import java.util.*;
-import java.lang.*;
 import java.io.*;
 
 class RearrangingArray {
