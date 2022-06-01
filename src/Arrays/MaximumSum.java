@@ -22,7 +22,7 @@ class MaximumSum {
         return maxSum;
     }
     public static void main(String[] args) {
-        int nums[] = {-5,-1, -3, -2, -4};
+        int nums[] = {8, -47, 43, 94, -94, -93, -59, 31, -86};
         int maxSum = maxSubArray(nums);
         System.out.println(maxSum);
 
