@@ -1,4 +1,5 @@
 // Kandan's Algorithm
+// https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1
 
 class MaximumSum {
     public static int maxSubArray(int[] nums) {
