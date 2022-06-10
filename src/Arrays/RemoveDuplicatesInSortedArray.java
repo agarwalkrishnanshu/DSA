@@ -20,21 +20,7 @@ public class RemoveDuplicatesInSortedArray {
                 high++;
             }
             System.out.println("Array Size: "+a.size());
-        }
-
-        // for(int i=0; i < a.size()-1; i++){
-        //     int j=i+1;
-        //     System.out.println("i: "+i+" j: "+j+" a.size(): "+a.size()+" j< a.size(): "+(j< a.size())+ " a[i]: "+a.get(i) + " a[j]: "+ a.get(j) +" a[i]==a[j] "+(a.get(i).equals(a.get(j))));
-        //     while(j< a.size() && a.get(i).equals(a.get(j))){
-                
-        //         j++;
-        //     }
-        //     System.out.println("After comparing j: "+j+" a.size(): "+a.size()+" j< a.size(): "+(j< a.size())+ " a[i]: "+a.get(i) + " a[j]: "+ a.get(j) +" a[i]==a[j] "+(a.get(i).equals(a.get(j))));
-        //     a.add(i+1, a.get(j));
-        //     k++;
-        //     System.out.println("Array: "+a.size());
-        // }
-        
+        }        
         return low+1;
     }
     public static void main(String[] args) {
@@ -54,6 +40,4 @@ public class RemoveDuplicatesInSortedArray {
         }
         sc.close();
     }
-
-    
 }
