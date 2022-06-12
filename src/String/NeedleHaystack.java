@@ -5,13 +5,13 @@ import java.util.Scanner;
  */
 class NeedleHaystack {
     public static void main(String args[])
-        {
-            Scanner sc = new Scanner(System.in);
-            String haystack = sc.next();
-            String needle = sc.next();
-            NeedleHaystack nh = new NeedleHaystack();
-            System.out.println(nh.strStr(haystack, needle));
-        }
+    {
+        Scanner sc = new Scanner(System.in);
+        String haystack = sc.next();
+        String needle = sc.next();
+        NeedleHaystack nh = new NeedleHaystack();
+        System.out.println(nh.strStr(haystack, needle));
+    }
     public int strStr(String haystack, String needle) {
         int needleIndex = -1;
         if(needle.length() == 0){
