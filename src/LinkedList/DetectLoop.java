@@ -1,8 +1,12 @@
+/**
+ * Detect Loop in linked list
+ * https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1#
+ * Easy
+ * Floyd's Method
+ * 12 June 2022
+ */
 // { Driver Code Starts
 //Initial template code for JAVA
-/**
- * https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1#
- */
 import java.util.*;
 import java.io.*;
 import java.lang.*;
