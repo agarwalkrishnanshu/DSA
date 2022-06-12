@@ -1,6 +1,6 @@
-
-// https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1/#
-
+/**
+ * https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1#
+ */
 // { Driver Code Starts
 import java.util.*;
 
@@ -14,7 +14,7 @@ class Node {
     }
 }
 
-class Is_LinkedList_Palindrom {
+public class NthNodeFromEnd {
     Node head;
     Node tail;
 
@@ -40,73 +40,77 @@ class Is_LinkedList_Palindrom {
         }
     }
 
+    /* Drier program to test above functions */
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
 
         while (t > 0) {
             int n = sc.nextInt();
-            // int k = sc.nextInt();
-            Is_LinkedList_Palindrom llist = new Is_LinkedList_Palindrom();
+            int k = sc.nextInt();
+            NthNodeFromEnd llist = new NthNodeFromEnd();
             // int n=Integer.parseInt(br.readLine());
             int a1 = sc.nextInt();
             Node head = new Node(a1);
-            Node tail = head;
+            llist.addToTheLast(head);
             for (int i = 1; i < n; i++) {
                 int a = sc.nextInt();
-                tail.next = new Node(a);
-                tail = tail.next;
+                llist.addToTheLast(new Node(a));
             }
 
-            Solution g = new Solution();
-            if (g.isPalindrome(head) == true)
-                System.out.println(1);
-            else
-                System.out.println(0);
+            // System.out.println(llist.head.data);
+            GfG g = new GfG();
+            // System.out.println(k);
+            System.out.println(g.getNthFromLast(llist.head, k));
+
             t--;
         }
-
     }
 }
 
 // } Driver Code Ends
 
 /*
- * Structure of class Node is
+ * Structure of node
+ * 
  * class Node
  * {
  * int data;
  * Node next;
- * 
- * Node(int d)
- * {
- * data = d;
- * next = null;
- * }
+ * Node(int d) {data = d; next = null; }
  * }
  */
 
-class Solution {
-    // Function to check whether the list is palindrome.
-    boolean isPalindrome(Node head) {
+class GfG {
+    // Function to find the data of nth node from the end of a linked list.
+    int getNthFromLast(Node head, int n) {
         // Your code here
-        if (head == null) {
-            return false;
-        }
-        int num = 0;
-        int reverseNum = 0;
-        int unit = 1;
         Node current = head;
-        while (current != null) {
-            num = num * 10 + current.data;
-            reverseNum = current.data * unit + reverseNum;
-            unit = unit * 10;
+        if (head == null) {
+            return -1;
+        }
+        int L = 1;
+        while (current.next != null) {
             current = current.next;
+            L++;
         }
-        // System.out.println("num: "+num+" reverseNum: "+reverseNum);
-        if (num == reverseNum) {
-            return true;
+        // System.out.println("L: "+L);
+        if (n > L) {
+            return -1;
         }
-        return false;
+        if (n == 1) {
+            return current.data;
+        }
+
+        current = head;
+        while (current.next != null) {
+            // System.out.println("L: "+L);
+            if (L == n) {
+                return current.data;
+            }
+            current = current.next;
+            L--;
+        }
+        return -1;
     }
 }

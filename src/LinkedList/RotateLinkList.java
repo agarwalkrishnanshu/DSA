@@ -1,4 +1,4 @@
-package LinkedList;
+
 /**
  * https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1/#
  */
