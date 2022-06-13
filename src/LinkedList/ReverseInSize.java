@@ -6,7 +6,6 @@
  */
 // { Driver Code Starts
     import java.util.*;
-    import java.lang.*;
     
     class Node
     {
@@ -47,6 +46,7 @@
                 printList(res);
                 System.out.println();
             }
+            sc.close();
         }
         
         public static void printList(Node node)
@@ -80,7 +80,7 @@
     
     class Solution
     {
-        public static Node reverse(Node node, int k)
+        public Node reverse(Node node, int k)
         {
             //Your code here
             int count =1;
