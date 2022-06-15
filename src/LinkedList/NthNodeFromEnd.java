@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1#
  */
@@ -65,6 +67,7 @@ public class NthNodeFromEnd {
 
             t--;
         }
+        sc.close();
     }
 }
 

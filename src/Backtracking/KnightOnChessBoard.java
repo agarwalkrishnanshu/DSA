@@ -9,13 +9,13 @@ import java.util.List;
 import java.util.Scanner;
 
 public class KnightOnChessBoard {
-    private static void saveBoard(int board[][], List<List<Integer>> boardList) {
+    /* private static void saveBoard(int board[][], List<List<Integer>> boardList) {
 
         
         
-    }
+    } */
     public static int nextMove(int x1, int y1, int a, int b, int n) {
-        int x2, y2;
+        // int x2, y2;
         // Case x2 = x1 +- a & y2 = y1 +- b
         // Possible combinations x1 + a, y1 + b
         // x1 + a, y1 - b
@@ -59,7 +59,7 @@ public class KnightOnChessBoard {
 
     public static List<List<Integer>> knightlOnAChessboard(int n) {
         List<List<Integer>> resultList = new ArrayList<>();
-        int board[][] = new int[n][n];
+        
         for(int a = 1; a < n; a++){
             for(int b = 1; b < n; b++){
                 helpKnight(resultList, n,0, 0, a, b);

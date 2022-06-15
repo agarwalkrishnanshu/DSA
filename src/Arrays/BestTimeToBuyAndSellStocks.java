@@ -52,7 +52,6 @@ class BestTimeToBuyAndSellStocks {
 
         if (buyDay == prices.length - 1) {
             // System.out.println("buyDay == prices length-1");
-            int newPrices[] = removeElement(prices, buyDay);
             System.out.print("Array after removing: " + buyDay);
             // print(newPrices);
             // return maxProfit(newPrices);
@@ -149,5 +148,8 @@ class BestTimeToBuyAndSellStocks {
         int input4[] = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 0, 0 };
 
         System.out.println(maxProfit(input1));
+        System.out.println(maxProfit(input2));
+        System.out.println(maxProfit(input3));
+        System.out.println(maxProfit(input4));
     }
 }

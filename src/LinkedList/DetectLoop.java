@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * Detect Loop in linked list
  * https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1#
@@ -8,8 +10,6 @@
 // { Driver Code Starts
 //Initial template code for JAVA
 import java.util.*;
-import java.io.*;
-import java.lang.*;
 
 class Node
 {
@@ -63,6 +63,7 @@ class DetectLoop
             else
                 System.out.println("False");
         }
+        sc.close();
     }
 }
 // } Driver Code Ends
@@ -84,9 +85,8 @@ class Node
 
 class Solution {
     //Function to check if the linked list has a loop.
-    public static boolean detectLoop(Node head){
+    public boolean detectLoop(Node head){
         // Add code here
-        Node current = head;
         Node fast = head;
         Node slow = head;
         

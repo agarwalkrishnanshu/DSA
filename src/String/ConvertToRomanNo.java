@@ -1,9 +1,10 @@
+package String;
+
 /**
  * https://practice.geeksforgeeks.org/problems/convert-to-roman-no/1#
  */
 // { Driver Code Starts
     import java.util.Scanner;
-    import java.util.*;
     
     class ConvertToRomanNo
     {
@@ -19,6 +20,7 @@
                 System.out.println(ob.convertToRoman(N));
                 t--;
             }
+            sc.close();
         }
     }// } Driver Code Ends
     

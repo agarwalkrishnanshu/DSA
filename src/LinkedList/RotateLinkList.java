@@ -1,3 +1,5 @@
+package LinkedList;
+
 
 /**
  * https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1/#
@@ -40,6 +42,7 @@ class RotateLinkList {
             head = ob.rotate(head, k);
             printList(head);
         }
+        sc.close();
     }
 
     public static void printList(Node n) {

@@ -1,3 +1,5 @@
+package String;
+
 import java.util.Scanner;
 /**
  * https://leetcode.com/problems/implement-strstr/submissions/
@@ -11,6 +13,7 @@ class NeedleHaystack {
         String needle = sc.next();
         NeedleHaystack nh = new NeedleHaystack();
         System.out.println(nh.strStr(haystack, needle));
+        sc.close();
     }
     public int strStr(String haystack, String needle) {
         int needleIndex = -1;

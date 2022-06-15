@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * GFG: Finding middle element in a linked list 
  * Easy
@@ -47,6 +49,7 @@
                 //printList(head); 
                 t--;
             }
+            sc.close();
         } 
     } 
        // } Driver Code Ends

@@ -1,3 +1,5 @@
+package String;
+
 import java.util.*;
 public class LongestPalindromeSubstring {
     public static void main(String args[])
@@ -30,7 +32,6 @@ public class LongestPalindromeSubstring {
     public String longestPalindrome(String A) {
         
         String longestPalin = "";
-        String str =A;
         
         for(int i=0; i <A.length(); i++){
             String str1 = A.substring(0,i);

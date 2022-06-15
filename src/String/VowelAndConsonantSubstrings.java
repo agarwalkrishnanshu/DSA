@@ -1,3 +1,5 @@
+package String;
+
 import java.util.*;
 public class VowelAndConsonantSubstrings {
     public static void main(String args[])

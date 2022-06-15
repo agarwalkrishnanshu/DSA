@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * GFG: Delete N nodes after M nodes of a linked list
  * Easy
@@ -7,10 +9,7 @@
 
 // { Driver Code Starts
 //Initial Template for Java
-
-import java.util.*;
 import java.io.*;
-import java.lang.*;
 
 class Node
 {
@@ -103,7 +102,7 @@ Node is defined as
 
 class Solution
 {
-    static void linkdelete(Node head, int M, int N)
+    void linkdelete(Node head, int M, int N)
     {
         // your code here
         if(head == null){

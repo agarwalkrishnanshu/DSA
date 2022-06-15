@@ -1,3 +1,5 @@
+package LinkedList;
+
 
 /**
  * https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1/#
@@ -48,6 +50,7 @@ class ReverseLinkList {
             printList(head);
             t--;
         }
+        sc.close();
     }
 }
 // } Driver Code Ends

@@ -1,3 +1,5 @@
+package LinkedList;
+
 
 // https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1/#
 
@@ -47,7 +49,6 @@ class Is_LinkedList_Palindrom {
         while (t > 0) {
             int n = sc.nextInt();
             // int k = sc.nextInt();
-            Is_LinkedList_Palindrom llist = new Is_LinkedList_Palindrom();
             // int n=Integer.parseInt(br.readLine());
             int a1 = sc.nextInt();
             Node head = new Node(a1);
@@ -65,7 +66,7 @@ class Is_LinkedList_Palindrom {
                 System.out.println(0);
             t--;
         }
-
+        sc.close();
     }
 }
 
