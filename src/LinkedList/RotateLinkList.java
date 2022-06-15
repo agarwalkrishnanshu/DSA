@@ -5,8 +5,8 @@ package LinkedList;
  * https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1/#
  */
 // { Driver Code Starts
-import java.util.*;
-
+import java.util.Scanner;
+/* 
 class Node {
     int data;
     Node next;
@@ -15,7 +15,7 @@ class Node {
         data = d;
         next = null;
     }
-}
+} */
 
 class RotateLinkList {
     public static void main(String[] args) {

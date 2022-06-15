@@ -6,7 +6,7 @@ package Arrays;
 import java.util.*;
 import java.io.*;
 
-class PermutationInArray {
+public class PermutationInArray {
     public static void main(String[] args) throws IOException {
         BufferedReader br =
             new BufferedReader(new InputStreamReader(System.in));
@@ -28,17 +28,10 @@ class PermutationInArray {
                 b[i] = Long.parseLong(inputLine1[i]);
             }
 
-            Solution obj = new Solution();
-            System.out.println(obj.isPossible(a, b, n, k) ? 1 : 0);
+            
+            System.out.println(isPossible(a, b, n, k) ? 1 : 0);
         }
     }
-}
-// } Driver Code Ends
-
-
-// User function Template for Java
-
-class Solution {
     public static void merge(long arr[], int l, int m, int r){
         
         // Find sizes of two subarrays to be merged
@@ -98,7 +91,7 @@ class Solution {
             merge(arr, (int)l, middle, (int)r);
         }
     }
-    public boolean isPossible(long a[], long b[], long n, long k) {
+    public static boolean isPossible(long a[], long b[], long n, long k) {
         // Your code goes here
         Boolean isPoss = true;
         mergeSort(a, 0, n-1);
@@ -112,3 +105,4 @@ class Solution {
         return isPoss;
     }
 }
+// } Driver Code Ends

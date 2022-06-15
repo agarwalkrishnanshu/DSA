@@ -11,18 +11,6 @@ package LinkedList;
 //Initial Template for Java
 import java.io.*;
 
-class Node
-{
-    int data;
-    Node next;
-    
-    Node(int data)
-    {
-        this.data = data;
-        this.next = null;
-    }
-}
-
 class DeleteNNodesAfterMNodes
 {
     static Node insert(Node head, int data)

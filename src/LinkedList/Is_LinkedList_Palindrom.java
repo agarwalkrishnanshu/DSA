@@ -4,9 +4,9 @@ package LinkedList;
 // https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1/#
 
 // { Driver Code Starts
-import java.util.*;
+import java.util.Scanner;
 
-class Node {
+/* class Node {
     int data;
     Node next;
 
@@ -14,7 +14,7 @@ class Node {
         data = d;
         next = null;
     }
-}
+} */
 
 class Is_LinkedList_Palindrom {
     Node head;

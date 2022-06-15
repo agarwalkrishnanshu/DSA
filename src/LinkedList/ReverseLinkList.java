@@ -5,10 +5,10 @@ package LinkedList;
  * https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1/#
  */
 // { Driver Code Starts
-import java.util.*;
+import java.util.Scanner;
 import java.io.*;
 
-class Node {
+/* class Node {
     int data;
     Node next;
 
@@ -17,7 +17,7 @@ class Node {
         next = null;
     }
 
-}
+} */
 
 class ReverseLinkList {
     static void printList(Node node) {

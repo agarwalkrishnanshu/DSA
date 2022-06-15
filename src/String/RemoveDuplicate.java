@@ -11,16 +11,11 @@ public class RemoveDuplicate {
         while (tc-- > 0) {
             String str = br.readLine().trim();
 
-            String ans = new Solution().removeDuplicates(str);
+            String ans = removeDuplicates(str);
             System.out.println(ans);
         }
     }
-}
-// } Driver Code Ends
-//User function Template for Java
-
-class Solution {
-    String removeDuplicates(String str) {
+    public static String removeDuplicates(String str) {
         // code here
         char lower[] = new char[26];
         char upper[]  = new char[26];
@@ -45,4 +40,6 @@ class Solution {
         return newStr;
     }
 }
+// } Driver Code Ends
+//User function Template for Java
 

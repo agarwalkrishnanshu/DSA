@@ -24,8 +24,8 @@ class RearrangingArray {
                 a[i] = Integer.parseInt(inputLine[i]);
             }
             
-            Solution obj = new Solution();
-            obj.Rearrange(a, n, answer);
+            
+            Rearrange(a, n, answer);
             StringBuilder output = new StringBuilder();
             for(int i=0;i<n;i++)
             output.append(answer[i]+" ");
@@ -33,16 +33,7 @@ class RearrangingArray {
             
         }
 	}
-}
-
-// } Driver Code Ends
-
-
-//User function Template for Java
-
-
-class Solution {
-    public void Rearrange(int a[], int n, int answer[])
+    public static void Rearrange(int a[], int n, int answer[])
     {
         Arrays.sort(a);
         try {
@@ -62,3 +53,5 @@ class Solution {
         
     }
 }
+
+// } Driver Code Ends

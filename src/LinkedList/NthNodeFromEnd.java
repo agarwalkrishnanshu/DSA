@@ -4,8 +4,8 @@ package LinkedList;
  * https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1#
  */
 // { Driver Code Starts
-import java.util.*;
-
+import java.util.Scanner;
+/* 
 class Node {
     int data;
     Node next;
@@ -14,7 +14,7 @@ class Node {
         data = d;
         next = null;
     }
-}
+} */
 
 public class NthNodeFromEnd {
     Node head;

@@ -9,7 +9,7 @@ package LinkedList;
  */
 // { Driver Code Starts
 //Initial template code for JAVA
-import java.util.*;
+import java.util.Scanner;
 
 class Node
 {
@@ -57,13 +57,28 @@ class DetectLoop
             int pos = sc.nextInt();
             makeLoop(head, tail, pos);
             
-            Solution x = new Solution();
-            if( x.detectLoop(head) )
+            if( detectLoop(head) )
                 System.out.println("True");
             else
                 System.out.println("False");
         }
         sc.close();
+    }
+    //Function to check if the linked list has a loop.
+    public static boolean detectLoop(Node head){
+        // Add code here
+        Node fast = head;
+        Node slow = head;
+        
+        while(fast !=null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast){
+                return true;
+                
+            }
+        }
+        return false;
     }
 }
 // } Driver Code Ends
@@ -81,25 +96,3 @@ class Node
 }
 
 */
-
-
-class Solution {
-    //Function to check if the linked list has a loop.
-    public boolean detectLoop(Node head){
-        // Add code here
-        Node fast = head;
-        Node slow = head;
-        
-        while(fast !=null && fast.next != null){
-            slow = slow.next;
-            fast = fast.next.next;
-            if(slow == fast){
-                return true;
-                
-            }
-        }
-        return false;
-        
-        
-    }
-}
