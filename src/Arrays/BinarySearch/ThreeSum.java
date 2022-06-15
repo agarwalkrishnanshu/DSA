@@ -29,6 +29,7 @@ public class ThreeSum {
             }
             i++;
         }
+        return 1;
     }
     
 }

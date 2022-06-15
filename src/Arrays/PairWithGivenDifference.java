@@ -1,3 +1,5 @@
+package Arrays;
+
 
 import java.util.*;
 /**
@@ -37,7 +39,7 @@ public class PairWithGivenDifference {
         }
         int B = sc.nextInt();
         System.out.println(PairWithGivenDifference.findPair(A, A.length, B));
-        
+        sc.close();
     }
     
 }

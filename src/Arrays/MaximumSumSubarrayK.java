@@ -1,3 +1,5 @@
+package Arrays;
+
 // Sliding Window technique
 // Find the maximum sum of subarray of size k
 

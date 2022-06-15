@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.*;
 // https://www.interviewbit.com/problems/merge-two-sorted-lists-ii/discussion/
 public class MergeTwoSortedList {

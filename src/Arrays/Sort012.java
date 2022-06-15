@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.io.*;
 // Problem: Sort and array of 0s, 1s and 2s
 // Algorithm Dutch National Flag

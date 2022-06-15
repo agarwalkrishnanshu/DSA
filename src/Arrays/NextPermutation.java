@@ -1,3 +1,5 @@
+package Arrays;
+
 public class NextPermutation {
         public void reverse(int nums[], int low, int high){
             // Reversing the remaining array
