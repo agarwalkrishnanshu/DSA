@@ -42,13 +42,22 @@ class FindMiddleElement {
                 tail.next = new Node(sc.nextInt());
                 tail = tail.next;
             }
-            Solution g = new Solution();
-            int ans = g.getMiddle(head);
+            int ans = getMiddle(head);
             System.out.println(ans);
             // printList(head);
             t--;
         }
         sc.close();
+    }
+    static int getMiddle(Node head) {
+        // Your code here.
+        Node slow = head;
+        Node fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow.data;
     }
 }
 // } Driver Code Ends
@@ -62,15 +71,4 @@ class FindMiddleElement {
  * }
  */
 
-class Solution {
-    int getMiddle(Node head) {
-        // Your code here.
-        Node slow = head;
-        Node fast = head;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-        return slow.data;
-    }
-}
+    

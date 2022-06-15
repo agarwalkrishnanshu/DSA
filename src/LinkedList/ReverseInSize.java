@@ -39,7 +39,7 @@ class ReverseInSize {
             }
 
             int k = sc.nextInt();
-            Solution ob = new Solution();
+            ReverseInSizeSolution ob = new ReverseInSizeSolution();
             Node res = ob.reverse(head, k);
             printList(res);
             System.out.println();
@@ -74,7 +74,7 @@ class ReverseInSize {
  * 
  */
 
-class Solution {
+class ReverseInSizeSolution {
     public Node reverse(Node node, int k) {
         // Your code here
         int count = 1;

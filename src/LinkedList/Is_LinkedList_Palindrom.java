@@ -59,8 +59,8 @@ class Is_LinkedList_Palindrom {
                 tail = tail.next;
             }
 
-            Solution g = new Solution();
-            if (g.isPalindrome(head) == true)
+            
+            if (isPalindrome(head) == true)
                 System.out.println(1);
             else
                 System.out.println(0);
@@ -68,28 +68,8 @@ class Is_LinkedList_Palindrom {
         }
         sc.close();
     }
-}
-
-// } Driver Code Ends
-
-/*
- * Structure of class Node is
- * class Node
- * {
- * int data;
- * Node next;
- * 
- * Node(int d)
- * {
- * data = d;
- * next = null;
- * }
- * }
- */
-
-class Solution {
     // Function to check whether the list is palindrome.
-    boolean isPalindrome(Node head) {
+    static boolean isPalindrome(Node head) {
         // Your code here
         if (head == null) {
             return false;
@@ -111,3 +91,20 @@ class Solution {
         return false;
     }
 }
+
+// } Driver Code Ends
+
+/*
+ * Structure of class Node is
+ * class Node
+ * {
+ * int data;
+ * Node next;
+ * 
+ * Node(int d)
+ * {
+ * data = d;
+ * next = null;
+ * }
+ * }
+ */

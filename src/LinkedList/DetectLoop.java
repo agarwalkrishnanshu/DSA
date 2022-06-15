@@ -11,7 +11,7 @@ package LinkedList;
 //Initial template code for JAVA
 import java.util.Scanner;
 
-class Node
+/* class Node
 {
     int data;
     Node next;
@@ -21,7 +21,7 @@ class Node
         data = x;
         next = null;
     }
-}
+} */
 
 class DetectLoop
 {

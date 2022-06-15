@@ -38,7 +38,7 @@ class RotateLinkList {
 
             int k = sc.nextInt();
 
-            Solution ob = new Solution();
+            RotateLinkListSolution ob = new RotateLinkListSolution();
             head = ob.rotate(head, k);
             printList(head);
         }
@@ -69,7 +69,7 @@ class RotateLinkList {
  * 
  */
 
-class Solution {
+class RotateLinkListSolution {
     // Function to rotate a linked list.
     public Node rotate(Node head, int k) {
         // add code here

@@ -45,7 +45,7 @@ class ReverseLinkList {
                 tail = tail.next;
             }
 
-            Solution ob = new Solution();
+            ReverseLinkListSolution ob = new ReverseLinkListSolution();
             head = ob.reverseList(head);
             printList(head);
             t--;
@@ -70,7 +70,7 @@ class ReverseLinkList {
  * 
  */
 
-class Solution {
+class ReverseLinkListSolution {
     // Function to reverse a linked list.
     Node reverseList(Node head) {
         // code here
