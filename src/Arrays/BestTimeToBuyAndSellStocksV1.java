@@ -4,6 +4,7 @@
     This is an optimized solution for this problem.
     Brute Force Approach in BestTimeToBuyAndSellStocks.java
 */
+package Arrays;
 
 public class BestTimeToBuyAndSellStocksV1 {
     public int maxProfit(int[] prices) {

@@ -5,7 +5,7 @@
     Time Limit Exceeds for this solution
     199/211 test cases passed
 */
-
+package Arrays;
 class BestTimeToBuyAndSellStocks {
     public static int[] removeElement(int[] prices, int index) {
         int newPrices[] = new int[prices.length - 1];

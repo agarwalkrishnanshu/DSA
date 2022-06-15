@@ -1,9 +1,13 @@
+package Stack;
+
 /* 
  * InterviewBit: Balanced Parantheses!
  * Easy
  * 14 June 2022
  * https://www.interviewbit.com/problems/balanced-parantheses/
  */
+
+import java.util.Stack;
 
 public class BalancedParenthesis {
     public int solve(String A) {

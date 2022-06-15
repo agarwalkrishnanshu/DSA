@@ -1,5 +1,7 @@
 package Arrays.BinarySearch;
 
+import java.util.Arrays;
+
 public class ThreeSum {
     public int threeSumClosest(int[] A, int B) {
         Arrays.sort(A);

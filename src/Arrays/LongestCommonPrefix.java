@@ -1,3 +1,6 @@
+package Arrays;
+
+
 // Problem Link: https://leetcode.com/problems/longest-common-prefix/
 class LongestCommonPrefix {
     public static String findCommonPrefix(String temp, String currentStr){
