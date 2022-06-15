@@ -1,4 +1,4 @@
-package BinarySearch;
+package Arrays.BinarySearch;
 
 /*
     https://leetcode.com/problems/sqrtx/

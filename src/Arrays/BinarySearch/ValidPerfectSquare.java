@@ -1,4 +1,4 @@
-package BinarySearch;
+package Arrays.BinarySearch;
 
 public class ValidPerfectSquare {
     public boolean isPerfectSquare(int num) {

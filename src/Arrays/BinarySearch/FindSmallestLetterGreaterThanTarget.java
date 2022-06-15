@@ -1,5 +1,6 @@
-package BinarySearch;
+package Arrays.BinarySearch;
 /**
+ * Leetcode: Find smallest letter greater than target
  * https://leetcode.com/problems/find-smallest-letter-greater-than-target/
  */
 public class FindSmallestLetterGreaterThanTarget {

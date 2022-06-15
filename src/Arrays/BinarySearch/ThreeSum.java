@@ -1,4 +1,4 @@
-package BinarySearch;
+package Arrays.BinarySearch;
 
 public class ThreeSum {
     public int threeSumClosest(int[] A, int B) {
