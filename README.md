@@ -4,15 +4,15 @@ This repo is to keep the solutions to the problems of Data Structures and Algori
 
 ## Folder Structure
 
-- `[src](/src)`: the main folder with all the sources with topic wise sub folder
-- `[Arrays](/src/Arrays/)`
-- `[Backtracking](/src/Backtracking/)`
-- `[Hashing](/src/Hashing/)`
-- `[LinkedList](/src/LinkedList/)`
-- `[Recursion](/src/Recursion/)`
-- `[Stack](/src/Recursion/)`
-- `[String](/src/String/)`
-- `[Util](/src/Util/)`
+- [src](/src): the main folder with all the sources with topic wise sub folder
+- [Arrays](/src/Arrays/)
+- [Backtracking](/src/Backtracking/)
+- [Hashing](/src/Hashing/)
+- [LinkedList](/src/LinkedList/)
+- [Recursion](/src/Recursion/)
+- [Stack](/src/Recursion/)
+- [String](/src/String/)
+- [Util](/src/Util/)
 
 ## Profile Links:
 
