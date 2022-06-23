@@ -19,5 +19,3 @@ This repo is to keep the solutions to the problems of Data Structures and Algori
 - [GeeksForGeeks](https://auth.geeksforgeeks.org/user/agarwalkrishnanshu/practice)
 - [LeetCode](https://leetcode.com/agarwalkrishnanshu/)
 - [LinkedIn](https://www.linkedin.com/in/krishnanshu-agarwal/)
-- <a href="https://auth.geeksforgeeks.org/user/agarwalkrishnanshu/practice" target="_blank">GFG</a>
-
