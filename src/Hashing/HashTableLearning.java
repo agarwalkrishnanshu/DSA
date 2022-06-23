@@ -29,6 +29,19 @@ class HashTableLearning {
         // Print mappings to the console
         System.out.println("Mappings of ht1 : " + ht1);
         System.out.println("Mappings of ht2 : " + ht2);
+
+        // removing an element
+        ht2.remove(6);
+        System.out.println("Updated Mapping for ht2: "+ht2);
+
+        // Iterating using enhanced for loop
+        for (Map.Entry<Integer, String> e : ht1.entrySet()){
+            System.out.println(e.getKey() + " "+ e.getValue());
+        }
+        // System.out.println(ht1.compute(key, remappingFunction));
+        System.out.println(ht1.contains("one"));
+        System.out.println(ht2.containsKey(5));
+
     }
     public static void hashtableExample2(){
         Hashtable<Integer, String> ht1 = new Hashtable<>(4);
@@ -102,9 +115,10 @@ class HashTableLearning {
     }
 
     public static void main(String args[]) {
+
         hashtableExample1();
-        hashtableExample2();
-        hashtableExample3();
-        hashtableExample4();
+        // hashtableExample2();
+        // hashtableExample3();
+        // hashtableExample4();
     }
 }
