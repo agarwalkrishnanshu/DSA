@@ -1,18 +1,22 @@
-## Getting Started
+## About this Repo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repo is to keep the solutions to the problems of Data Structures and Algorithms.
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+- `src`: the main folder with all the sources with topic wise sub folder
+- `src\Arrays`
+- `src\Backtracking`
+- `src\Hashing`
+- `src\LinkedList`
+- `src\Recursion`
+- `src\Stack`
+- `src\String`
+- `src\Util`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Profile Links:
 
-## Dependency Management
+### [GeeksForGeeks](https://auth.geeksforgeeks.org/user/agarwalkrishnanshu/practice) 
+### [LeetCode](https://leetcode.com/agarwalkrishnanshu/)
+### [LinkedIn](https://www.linkedin.com/in/krishnanshu-agarwal/)
 
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
-
-Purpose of this repo is to keep the solutions to the problems of Data Structures and Algorithms.
-
-Code is organised topic wise in folders.
