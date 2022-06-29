@@ -9,7 +9,6 @@ package Arrays;
 
 // { Driver Code Starts
 import java.util.Scanner;
-import java.util.*;
 import java.util.HashMap;
 
 class LargestSubarrayOf0And1 {
