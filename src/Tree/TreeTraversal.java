@@ -4,7 +4,9 @@ package Tree;
  *  Basic Accuracy: 60.29% Submissions: 99623 Points: 1
  *  Given a Binary Tree, find the In-Order Traversal of it
  *  https://practice.geeksforgeeks.org/problems/inorder-traversal/1#
- *  8th July 2022
+ *  Date: 8th July 2022
+ *  Pre Oreder Traversal: https://practice.geeksforgeeks.org/problems/preorder-traversal/1
+ *  Post Orrder Traversal: https://practice.geeksforgeeks.org/problems/postorder-traversal/1
  */
 // { Driver Code Starts
 // Initial Template for Java
@@ -25,7 +27,7 @@ class Node {
     }
 }
 
-class InorderTraversal {
+class TreeTraversal {
 
     static Node buildTree(String str) {
 
@@ -133,6 +135,47 @@ class Solution {
         if(root.right != null){
             result.addAll(inOrder(root.right));
         }
+        return result;
+    }
+    //Function to return a list containing the preorder traversal of the tree.
+    static ArrayList<Integer> preorder(Node root)
+    {
+        // Code here
+        ArrayList<Integer> result = new ArrayList<>();
+
+        if(root.left == null && root.right == null){
+            result.add(root.data);
+            return result;
+        }
+        result.add(root.data);
+        if(root.left != null){
+            result.addAll(preorder(root.left));
+        }
+        
+        if(root.right != null){
+            result.addAll(preorder(root.right));
+        }
+        return result;
+    }
+    //Function to return a list containing the postorder traversal of the tree.
+    ArrayList<Integer> postOrder(Node root)
+    {
+       // Your code goes here
+       ArrayList<Integer> result = new ArrayList<>();
+
+        if(root.left == null && root.right == null){
+            result.add(root.data);
+            return result;
+        }
+        
+        if(root.left != null){
+            result.addAll(postOrder(root.left));
+        }
+        
+        if(root.right != null){
+            result.addAll(postOrder(root.right));
+        }
+        result.add(root.data);
         return result;
     }
 }
